@@ -12,7 +12,7 @@ def get_all_tweets(screen_name):
 	#Twitter only allows access to a users most recent 3240 tweets with this method
 
 	#authorize twitter, initialize tweepy
-    auth = tweepy.OAuth2AppHandler("qqLpS9SikkE1wvYamVQujUaqu", "zjVex6MmUy8590ZUAJEgpsaOGRLhwg3nyJtpok0SOJI2pr1Gwe")
+    auth = tweepy.OAuth2AppHandler("", "")
     api = tweepy.API(auth)
 
 	#initialize a list to hold all the tweepy Tweets
